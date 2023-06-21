@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.break{
+    line-break: anywhere;
+}
+.border{
+    border: 1px solid;
+}
+.sh{
+    width: 78px;
+}
+.nshw{
+    box-shadow: 0px 0px 1.5px black;
+}
+.break{
+    line-break: anywhere;
+}
+.cpy{
+    font-size: 11px;
+}
+.btn{
+    border: 2px solid rgb(6, 73, 6);
+    color: rgb(6, 73, 6);
+    transition: 0.5s;
+}
+.btn:hover{
+    background: rgb(6, 79, 6);
+    color:greenyellow;
+    border: greenyellow;
+    transform-style: preserve-3d;
+}
+.shd{
+    width: 175px;
+    line-break:strict;
+}
+
+button{
+    outline: none;
+}
+.atc{
+    transition: 0.5s;
+}
+.int{
+    border:1px solid grey;
+    outline:none;
+}
+.line{
+    height: 0.9px;
+    box-shadow: 0px 0px 1px rgb(74, 72, 72);
+}
+.red{
+    color: red;
+}
+.blue{
+    color: rgb(30, 196, 30);
+}
+
+
+@media (min-width:2200px){
+.width{
+    /* max-width:2000px; */
+}
+}
